@@ -3,7 +3,6 @@ function toggleLinknyaClass() {
     const btn = document.querySelector('.tombol');
     const logo = document.querySelector('.puskeSmart');
     const cont1 = document.querySelector('.csc1');
-    const card = document.querySelectorAll('.card');
   
     if (window.innerWidth < 992) {
         // Aktifkan tampilan mobile
@@ -17,7 +16,6 @@ function toggleLinknyaClass() {
         logo.style.width = '50px';
         logo.style.height = '50px';
         if (cont1) cont1.style.marginTop = '50px';
-        card.style.width = '300px';
     } else {
         // Aktifkan tampilan desktop
         navLinks.forEach(link => {
