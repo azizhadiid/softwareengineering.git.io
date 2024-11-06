@@ -1,6 +1,6 @@
 .navbar-collapse .navbar-nav .linknya {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-right: 40px;
     text-decoration: none;
     position: relative;
@@ -27,10 +27,11 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: #fff; 
     /* Set the color of the line */
-    border-radius: 5px;
+     border-radius: 5px;
 }
+
 
 .navbar-collapse .navbar-nav .linknya::after {
     content: '';
