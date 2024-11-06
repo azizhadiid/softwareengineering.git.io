@@ -3,7 +3,6 @@ function toggleLinknyaClass() {
     const btn = document.querySelector('.tombol');
     const logo = document.querySelector('.puskeSmart');
     const cont1 = document.querySelector('.csc1');
-  
     if (window.innerWidth < 992) {
         // Aktifkan tampilan mobile
         navLinks.forEach(link => {
