@@ -3,7 +3,7 @@
     font-size: 1rem;
     margin-right: 40px;
     text-decoration: none;
-    position: relative;
+    /* position: relative; */
     font-weight: bold;
 }
 
@@ -15,22 +15,22 @@
     font-size: 1.2rem;
 }
 
-.navbar-nav .nav-link.active {
+.navbar-collapse .navbar-nav {
     position: relative;
 }
 
-.navbar-nav .nav-link.active::after {
+/* .navbar-nav .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: -5px;
     /* Position the line below the text */
-    left: 0;
+    /* left: 0;
     width: 100%;
     height: 3px;
-    background: #fff; 
+    background: #fff;  */
     /* Set the color of the line */
-     border-radius: 5px;
-}
+     /* border-radius: 5px;
+} */ 
 
 
 .navbar-collapse .navbar-nav .linknya::after {
