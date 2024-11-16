@@ -9,12 +9,12 @@
     <meta name="author" content="">
     <title>Login</title>
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
     <!-- My font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +24,11 @@
 </head>
 
 <body
-    style="background-image: url('img/asset/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: 'Poppins', serif;">
+    style="background-image: url('../img/asset/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: 'Poppins', serif;">
 
     <!-- Logo section -->
     <div class="d-flex justify-content-center mt-4 mb-2">
-        <img src="img/asset/logoHer.png" alt="Logo" class="img-fluid" style="max-width: 270px;">
+        <img src="../img/asset/logoHer.png" alt="Logo" class="img-fluid" style="max-width: 270px;">
     </div>
 
     <!-- Main container for login form -->
@@ -42,7 +42,7 @@
             <!-- Form container with responsive width -->
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <form action="">
+                    <form action="https://7d28-125-167-58-61.ngrok-free.app/api/auth/login" id="loginForm" method="POST">
                         <!-- Username input -->
                         <div class="form-group">
                             <label for="username" class="font-weight-bold text-dark" style="font-size: 1rem;">Nama
@@ -51,7 +51,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-regular fa-user"></i></span>
                                 </div>
-                                <input type="text" class="form-control" id="username" placeholder="Enter your username"
+                                <input type="text" class="form-control" id="username" placeholder="Masukkan Nama Pengguna"
                                     name="username" required>
                             </div>
                         </div>
@@ -71,18 +71,18 @@
 
                         <!-- Forgot password link -->
                         <div class="text-right mb-3">
-                            <a href="/forgot-password.html" class="font-weight-bold text-primary" style="font-size: 1rem;">Lupa Sandi?</a>
+                            <a href="forgot-password.html" class="font-weight-bold text-primary" style="font-size: 1rem;">Lupa Sandi?</a>
                         </div>
 
                         <!-- Login button -->
                         <div class="form-group">
                             <button type="submit" class="btn btn-success font-weight-bold w-100"
-                                style="padding: 10px; font-size: 1rem;">Masuk</button>
+                                style="padding: 10px; font-size: 1rem;" id="btnSubmit">Masuk</button>
                         </div>
 
                         <!-- Register link -->
                         <p class="text-center font-weight-bold text-dark" style="font-size: 1rem;">
-                            Tidak punya akun? <a href="/register.html" class="font-weight-bold text-primary ml-1">Daftar</a>
+                            Tidak punya akun? <a href="register.html" class="font-weight-bold text-primary ml-1">Daftar</a>
                         </p>
                     </form>
                 </div>
@@ -93,14 +93,14 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3659f450a4.js" crossorigin="anonymous"></script>
     <!-- My JS -->
-    <script src="js/myJS/login.js"></script>
+    <!-- <script src="../js/myJS/login.js"></script> -->
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for all pages -->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="../js/sb-admin-2.min.js"></script>
 </body>
 
 </html>
